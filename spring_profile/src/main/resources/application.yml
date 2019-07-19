@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+      - printer
+      - dev
+
+---
+spring:
+  profiles: dev
+home:
+  config:
+    url: "http://localhost.com"
+    port: "8080"
+app:
+  config:
+    appconfig:
+      instrument: "i/r swap"
+
+
+
