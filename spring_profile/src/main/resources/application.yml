@@ -3,6 +3,7 @@ spring:
     active:
       - printer
       - dev
+      - user
 
 ---
 spring:
@@ -16,5 +17,16 @@ app:
     appconfig:
       instrument: "i/r swap"
 
+---
+spring:
+  profiles: user
+home:
+  config:
+    port: "5555"
+app:
+  config:
+    appconfig:
+      username: "user1"
+      instrument: "bonds"
 
 

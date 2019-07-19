@@ -27,8 +27,9 @@ public class Printer {
         return "Printer{" +
                 "url='" + url + '\'' +
                 ", port='" + port + '\'' +
+                ", username='" + config.getAppconfig().getUsername() + '\'' +
                 ", topic='" + topic + '\'' +
-                ", config=" + config.getAppconfig().getInstrument() +
+                ", instrument=" + config.getAppconfig().getInstrument() +
                 '}';
     }
 }
