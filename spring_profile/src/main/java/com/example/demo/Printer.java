@@ -29,7 +29,7 @@ public class Printer {
                 ", port='" + port + '\'' +
                 ", username='" + config.getAppconfig().getUsername() + '\'' +
                 ", topic='" + topic + '\'' +
-                ", instrument=" + config.getAppconfig().getInstrument() +
+                ", instrument='" + config.getAppconfig().getInstrument() + '\'' +
                 '}';
     }
 }
